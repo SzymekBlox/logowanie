@@ -6,7 +6,7 @@ if (isset($_REQUEST['action']) && $_REQUEST['action'] == "login") {
     $email = filter_var($email, FILTER_SANITIZE_EMAIL);
 
     //obiektowo
-    $db = new mysqli("mysql.ct8.pl", "", "haslo", "nazwa");
+    $db = new mysqli("mysql.ct8.pl", "login", "haslo", "nazwa");
     //var_dump($db);
 
     //strukturalnie 
