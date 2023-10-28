@@ -1,7 +1,7 @@
 <?php
 
-isset($_REQUEST['action']) && $_REQUEST['action'] == "register" {
-    if(empty($_REQUEST['email']) || empty($_REQUEST['password']) || empty($_REQUEST['passwordRepeat']) || empty($_REQUEST['userRow']))
+isset($_REQUEST['action']) && $_REQUEST['action'] == "register") {
+    if(empty($_REQUEST['email']) || empty($_REQUEST['password']) || empty($_REQUEST['passwordRepeat']))
         die("Brak danych");
 }
 
